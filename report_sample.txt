@@ -1,0 +1,60 @@
+
+    RELATÓRIO DE ANÁLISE: COMÉRCIO INTERNACIONAL E CRESCIMENTO ECONÔMICO
+    ====================================================================
+    
+    Data: 2025-09-01 22:44:57
+    Tipo de dados: Amostra simulada
+    Período: 2000-2022
+    Países analisados: 24
+    Observações: 552
+    
+    ESTATÍSTICAS POR NÍVEL DE RENDA:
+                  gdp_per_capita           gdp_growth       exports_pct_gdp imports_pct_gdp trade_openness
+                        mean       std       mean   std            mean            mean           mean
+income_level                                                                                          
+high_income         56585.26  12734.58       2.50  1.27           43.93           44.11          88.04
+low_income           3754.39   1606.54       6.02  1.72           24.35           25.20          49.55
+middle_income       14140.40   2909.96       4.76  1.34           29.89           30.82          60.72
+    
+    CORRELAÇÕES COM CRESCIMENTO DO PIB:
+    gdp_growth               1.000000
+gdp_per_capita_growth    0.083933
+real_exchange_rate       0.032308
+trade_balance_pct_gdp    0.020708
+exports_pct_gdp         -0.490486
+imports_pct_gdp         -0.512481
+trade_openness          -0.540043
+gdp_per_capita          -0.641481
+    
+    PRINCIPAIS DESCOBERTAS:
+    
+    1. DIFERENÇAS ENTRE NÍVEIS DE RENDA:
+    - Países de alta renda: PIB per capita mais elevado, crescimento moderado
+    - Países de média renda: Crescimento econômico sólido
+    - Países de baixa renda: Maior taxa de crescimento, menor PIB per capita
+    
+    2. RELAÇÃO COMÉRCIO-CRESCIMENTO:
+    - Correlação negativa 
+      entre abertura comercial e crescimento
+    - Países com maior integração comercial tendem a apresentar melhor desempenho
+    
+    3. PADRÕES TEMPORAIS:
+    - Tendência de aumento da abertura comercial ao longo do tempo
+    - Crescimento econômico mostra volatilidade em períodos de crise
+    
+    RECOMENDAÇÕES:
+    
+    • Países de baixa renda: Focar em aumentar a integração comercial e desenvolver
+      capacidades exportadoras
+    
+    • Países de média renda: Diversificar pautas de exportação e promover acordos
+      comerciais estratégicos
+    
+    • Países de alta renda: Manter abertura existente e focar em inovação e comércio
+      de serviços
+    
+    LIMITAÇÕES:
+    • Dados simulados para fins demonstrativos
+    • Análise baseada em correlações, não estabelece causalidade
+    • Resultados podem variar com a inclusão de variáveis adicionais
+    
